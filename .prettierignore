@@ -1,0 +1,34 @@
+# Ігнорування папок
+node_modules
+dist
+build
+coverage
+public/assets
+src/assets/fonts
+
+# Ігнорування мініфікованих файлів
+*.min.css
+*.min.js
+
+# Ігнорування конфігураційних файлів
+package-lock.json
+yarn.lock
+
+# Ігнорування зображень
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.webp
+
+# Ігнорування шрифтів
+*.woff
+*.woff2
+*.ttf
+*.eot
+
+# Ігнорування інших файлів
+.DS_Store
+.env
+.env.local
